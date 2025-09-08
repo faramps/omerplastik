@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="tr">
       
       <body className={`${geistSans.variable} ${geistMono.variable } antialiased flex flex-col min-h-screen scroll-smooth`}>
-         <ThemeProvider attribute="class" enableSystem defaultTheme="system"  disableTransitionOnChange>
+         <ThemeProvider attribute="class" enableSystem defaultTheme="light"  disableTransitionOnChange>
         <SplashScreen>
        
           <ProviderLang>
