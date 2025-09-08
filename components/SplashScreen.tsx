@@ -28,10 +28,10 @@ export default function SplashScreen({ children }: SplashProps) {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0, scale: 1.1 }} // exit animasyonu
             transition={{ duration: 0.8, ease: "easeInOut" }}
-            className="fixed inset-0 z-50 flex items-center justify-center bg-white dark:bg-neutral-900"
+            className="fixed inset-0 z-50 flex items-center justify-center bg-white"
           >
             <motion.img
-              src={theme === "dark" ? "/images/darklogo.png" : "/images/lightlogo.png"}
+              src={"/images/lightlogo.png"}
               alt="Ömer Plastik"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
