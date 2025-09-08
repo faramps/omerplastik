@@ -13,12 +13,7 @@ const LanguageSwitcher = () => {
         dispatch(setLanguage(lang));
     }
 
-  return (
-    <div>
-      <button onClick={() => dispatch(setLanguage("en"))}>English</button>
-      <button onClick={() => dispatch(setLanguage("tr"))}>Türkçe</button>
-      <button onClick={() => dispatch(setLanguage("de"))}>Deutsch</button>
-    </div>
+  return (<></>
   )
 }
 

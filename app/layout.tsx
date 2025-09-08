@@ -1,10 +1,10 @@
-// app/layout.tsx
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { ThemeProvider } from "../components/theme-provider";
 import ProviderLang from "../components/provider/ProviderLang";
+import SplashScreen from "@/components/SplashScreen";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,20 +17,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Ömer Plastik",
+  title: "Ömer Plastik ",
   description: "Ömer Plastik - Granül ve Geridönüşüm",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="tr">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+      
+      <body className={`${geistSans.variable} ${geistMono.variable } antialiased flex flex-col min-h-screen scroll-smooth`}>
+         <ThemeProvider attribute="class" enableSystem defaultTheme="system"  disableTransitionOnChange>
+        <SplashScreen>
+       
           <ProviderLang>
             <Header />
-            <main className="flex-grow">{children}</main>
+            <main className="flex-grow overflow-x-hidden">{children}</main>
             <Footer />
           </ProviderLang>
+        </SplashScreen>
         </ThemeProvider>
       </body>
     </html>

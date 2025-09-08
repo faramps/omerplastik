@@ -4,6 +4,12 @@
 
 
 
+@import "flag-icons/css/flag-icons.min.css";
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {

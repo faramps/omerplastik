@@ -9,5 +9,8 @@ import dynamic from "next/dynamic"
 import { ThemeProviderProps } from "next-themes"
 
 export function ThemeProvider({ children, ...props }: React.PropsWithChildren<ThemeProviderProps>) {
-  return <NextThemesProvider {...props}>{children}</NextThemesProvider>
+  return <NextThemesProvider 
+    defaultTheme="system"
+   {...props}>{children}
+   </NextThemesProvider>
 }

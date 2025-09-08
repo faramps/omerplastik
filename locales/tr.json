@@ -1,3 +1,34 @@
 {
-    "anne": "anne"
-}
+    "anne": "anne",
+    "homepage": "Ana sayfa",
+    "about": "Hakkımızda",
+    "products": "Ürünler",
+    "contact": "İletişim",
+    "mainsecond":"Granül - Geri Dönüşüm",
+    "mainfirst":"Ömer Plastik",
+    "paragraf1":", 15 yılı aşkın deneyimiyle granül üretimi ve geri dönüşüm alanında sektörün güvenilir isimlerinden biri olmuştur. Ömer Plastik, kaliteyi ve sürdürülebilirliği ön planda tutarak müşteri memnuniyetini her zaman temel ilke haline getirmiştir.",
+    "paragraf2":"Granül ve geri dönüşüm süreçlerinde modern teknolojiye dayalı üretim sistemleri kullanan Ömer Plastik, sektöre değer katan çözümler sunmaktadır. Ömer Plastik, çevreye duyarlı yaklaşımıyla yalnızca ürün değil, aynı zamanda sürdürülebilir bir gelecek inşa etmektedir.",
+    "paragraf3":"Ömer Plastik, geri dönüşümle elde edilen granülleri işleyerek dayanıklı, verimli ve ekonomik ham madde çözümleri üretmektedir. Ömer Plastik’in sunduğu granüller, farklı sektörlerde kalite standartlarını yükseltmekte ve iş ortaklarına avantaj sağlamaktadır.",
+    "paragraf4":"Müşteri odaklı hizmet anlayışıyla öne çıkan Ömer Plastik, her projede güvenilirliği ve şeffaflığı esas alır. Ömer Plastik, uzman kadrosu ve güçlü altyapısıyla üretimden teslimata kadar her aşamada yüksek standartları garanti eder.",
+    "paragraf5":"Sürdürülebilirlik vizyonunu merkeze alan Ömer Plastik, çevre dostu geri dönüşüm çözümlerini sürekli geliştirmektedir. Ömer Plastik, bu yaklaşımıyla doğayı korurken aynı zamanda sektörde fark yaratan ürünler sunmaktadır.",
+    "paragraf6":"Bugün Ömer Plastik, granül ve geri dönüşüm alanındaki başarısını 15 yıllık tecrübeyle birleştirerek geleceğe güvenle bakmaktadır. Ömer Plastik, yenilikçi üretim anlayışı ve güçlü iş etiğiyle sektördeki lider konumunu her geçen gün pekiştirmektedir.",
+    "productsTitle":"Ürünlerimiz",
+    "product1title":"Yanmaz Granül",
+    "product2title":"Polietilen Granül",
+    "product1":"Ömer Plastik, geliştirdiği yanmaz granül ürünlerinde HFFR (Halogen Free Flame Retardant) katkı teknolojisini kullanmaktadır. HFFR katkılı yanmaz granül, halojensiz yapısıyla çevreye daha duyarlı çözümler sunarken, yüksek dayanıklılık ve güvenlik sağlayan özellikleriyle öne çıkar. Özellikle kablo, otomotiv, inşaat ve elektrik uygulamalarında tercih edilen yanmaz granül, yangına karşı etkili bir direnç gösterir. Ömer Plastik, yanmaz granül üretiminde yenilikçi yaklaşımıyla sektördeki ihtiyaçlara uygun çözümler geliştirmeye devam etmektedir.",
+    "product2":"Ömer Plastik, üretiminde LDPE (Low-Density Polyethylene) kullandığı polietilen granül ile esneklik, hafiflik ve yüksek performansı bir araya getirir. LDPE tabanlı polietilen granül, ambalaj, boru, film ve çeşitli plastik ürünlerin üretiminde geniş kullanım alanı sağlar. Ömer Plastik, modern üretim tesislerinde titizlikle hazırlanan polietilen granül ile dayanıklı ve çevreye duyarlı çözümler sunarak sektörde güvenilir bir tercih olmaya devam etmektedir.",
+    "touch":" Bizimle iletişime geçmek için aşağıdaki bilgileri kullanabilir veya sağdaki formu doldurabilirsiniz.",
+    "processes":"Üretim Süreçlerimiz",
+    "pt1":"Hammadde Temini",
+    "pa1":"Üretim sürecimiz, boru hammaddesi için gerekli olan malzemelerin teminiyle başlar. Kaliteli ve geri dönüştürülebilir hammaddeler, verimli üretimin temelini oluşturur.",
+    "pt2":"Temizlik ve Kırma",
+    "pa2":"Toplanan hammaddeler, yabancı maddelerden arındırılarak temizlenir ve küçük parçalara ayrılır. Bu işlem, saflığı ve verimliliği garanti eder.",
+    "pt3":"Hazırlık Aşaması",
+    "pa3":"Kırılmış malzemeler, granül makinesine beslenmeye hazır hale getirilir. Böylece sonraki işlem için homojen bir yapı sağlanır.",
+    "pt4":"Eritme ve Granülizasyon",
+    "pa4":"Malzemeler yüksek sıcaklıkta eritilerek işlenir. Granül makinesi hammaddenin granül formuna dönüşmesini sağlar.",
+    "pt5":"Granül Hammadde",
+    "pa5":"Ortaya çıkan granüller, boru üretiminde doğrudan kullanılabilen yüksek kaliteli hammadde haline gelir. Bu sayede sürdürülebilir ve güvenilir bir üretim süreci tamamlanır."
+
+
+}   
