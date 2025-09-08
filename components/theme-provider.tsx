@@ -10,7 +10,7 @@ import { ThemeProviderProps } from "next-themes"
 
 export function ThemeProvider({ children, ...props }: React.PropsWithChildren<ThemeProviderProps>) {
   return <NextThemesProvider 
-    defaultTheme="system"
+    defaultTheme="light"
    {...props}>{children}
    </NextThemesProvider>
 }
