@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import { ThemeProvider } from "../components/theme-provider";
 import ProviderLang from "../components/provider/ProviderLang";
 import SplashScreen from "@/components/SplashScreen";
+import { Analytics } from '@vercel/analytics/react';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,6 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="tr">
       
       <body className={`${geistSans.variable} ${geistMono.variable } antialiased flex flex-col min-h-screen scroll-smooth`}>
+        <Analytics />
          <ThemeProvider attribute="class" enableSystem defaultTheme="light"  disableTransitionOnChange>
         <SplashScreen>
        
