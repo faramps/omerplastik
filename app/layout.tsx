@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import { ThemeProvider } from "../components/theme-provider";
 import ProviderLang from "../components/provider/ProviderLang";
 import SplashScreen from "@/components/SplashScreen";
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '@vercel/analytics/next';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
